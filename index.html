@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" async defer></script>
   <title>Practica Final Precurso</title>
 </head>
 
@@ -16,8 +17,8 @@
   <header>
     <nav>
       <img src="./images/logo.png" alt="" />
-      <a href="#">menu</a>
-      <ul>
+      <a href="javascript:toggleMenu()" id="menuBtn">menu</a>
+      <ul id="navMenu">
         <li><a href="#home">home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#services">services</a></li>
@@ -34,7 +35,8 @@
         <div class="cta">take a look</div>
       </div>
     </section>
-    <section class="story" id="about">
+    <section class="story">
+      <div id="about"></div>
       <h2>Our story</h2>
       <article>
         <p>
@@ -122,7 +124,8 @@
         </div>
       </article>
     </section>
-    <section class="servicios" id="services">
+    <section class="servicios">
+      <div id="services"></div>
       <div class="separador">
         <h2>servicios</h2>
       </div>
@@ -218,7 +221,8 @@
 
       </article>
     </section>
-    <section class="contacto" id="contact">
+    <section class="contacto">
+      <div id="contact"></div>
       <div class="separador">
         <h2>contacto</h2>
       </div>
