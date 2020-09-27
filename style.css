@@ -66,10 +66,10 @@ nav ul li:last-child {
   border-bottom: none;
 }
 
-main{
+/* main{
   max-width: 800px;
   margin: auto;
-}
+} */
 
 /* ------------------------------------------------------HERO------------------------------ */
 
@@ -214,3 +214,66 @@ main{
 .tarjeta_persona p:last-child{
   font-weight: 900;
 }
+
+/* --------------------------- Servicios---------------------- */
+
+.separador{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1em 0;
+  margin: 2em 0;
+}
+
+.separador h2{
+  width: fit-content;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.servicios article{
+  text-align: center;
+  padding: 4em 0;
+}
+
+.image-container{
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-container img{
+  max-width: 100%;
+  transition: transform ease-in 5s;
+}
+
+.image-container img:hover{
+  transform: scale(1.2);
+}
+
+.servicios h3{
+  text-transform: uppercase;
+  padding-top: 2em;
+  width: fit-content;
+  margin: auto;
+}
+
+.servicios p{
+  display: none;
+}
+
+.servicios-dark{
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #F0F0EE;
+}
+
+.servicios-dark h3{
+  padding-top: 0;
+  padding-bottom: 2em;
+}
+
+
