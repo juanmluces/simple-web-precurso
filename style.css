@@ -12,6 +12,8 @@ a{
   transition: color ease-in-out 200ms;
 }
 
+/* ---------------------------------------HEADER--------------------------- */
+
 header{
   background-color: black;
   position: sticky;
@@ -68,6 +70,8 @@ main{
   max-width: 800px;
   margin: auto;
 }
+
+/* ------------------------------------------------------HERO------------------------------ */
 
 .hero {
   background-image: url(images/home.jpg);
@@ -126,4 +130,42 @@ main{
   color: #4b4b4b;
   border-color:#4b4b4b;
   cursor: pointer;
+}
+
+/* ------------------------ABOUT ---------------------------------- */
+
+
+
+.story {
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+  max-width: 600px;
+}
+
+.story h2 {
+  text-transform: uppercase;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5em 0;
+  
+}
+
+.story h2::after{
+  content: '';
+  border-bottom: 1px solid black;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.story article{
+  margin: 2em 0;
+}
+
+.story p{
+  margin: 2em 0;
+  color: #797979;
 }
