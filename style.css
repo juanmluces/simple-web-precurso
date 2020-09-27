@@ -136,14 +136,14 @@ main{
 
 
 
-.story {
+.story, .dream_team {
   text-align: center;
   margin: auto;
   padding: 2em;
   max-width: 600px;
 }
 
-.story h2 {
+.story h2, .dream_team h2 {
   text-transform: uppercase;
   position: relative;
   width: fit-content;
@@ -152,7 +152,7 @@ main{
   
 }
 
-.story h2::after{
+.story h2::after, .dream_team h2::after{
   content: '';
   border-bottom: 1px solid black;
   width: 50%;
@@ -161,11 +161,56 @@ main{
   left: 25%;
 }
 
-.story article{
+.story article, .dream_team article{
   margin: 2em 0;
 }
 
 .story p{
   margin: 2em 0;
   color: #797979;
+}
+
+.dream_team article{
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta_persona {
+  padding: 2em;
+}
+
+.tarjeta_persona img{
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.tarjeta_persona h3, .tarjeta_persona h4{
+  text-transform: uppercase;
+}
+
+.tarjeta_persona h4{
+  font-weight: 500;
+  color: #797979;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5em 0 1em;
+}
+
+.tarjeta_persona h4::after{
+  content: '';
+  border-bottom: 1px solid black;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.tarjeta_persona p{
+  margin: 2em auto;
+  line-height: 1.7;
+}
+
+.tarjeta_persona p:last-child{
+  font-weight: 900;
 }
