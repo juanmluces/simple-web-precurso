@@ -382,6 +382,7 @@ footer a:hover, footer a:focus, footer a:active{
 .social-box{
   display: flex;
   color: #111111;
+  margin: 0.5em;
 }
 
 .social-box div{
